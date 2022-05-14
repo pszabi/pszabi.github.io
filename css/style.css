@@ -4,9 +4,16 @@
     font-weight: 200;
 }
 
+@font-face {
+    font-family: 'robotoBold';
+    src: url("fonts/Roboto-Bold.ttf");
+    font-weight: 200;
+}
+
 html {
     font-family: "roboto", Arial, Helvetica, sans-serif;
     text-align: left;
+    background-color: aliceblue;
 
 }
 
@@ -33,4 +40,78 @@ a {
 table {
     color: brown;
     text-align: left;
+    width: display/2;
 }
+
+.buttonsBordersDiv{
+
+    margin: -10px -10px 0px -10px; 
+    padding: 20px 10px 20px 20px;
+    border-bottom: solid;
+    border-width: 2px;
+    background-color: rgb(173, 230, 201);
+}
+.buttonDiv{
+    color: black;
+    font-family: "robotoBold", Arial, Helvetica, sans-serif;
+    margin: 0px 0px 0px 0px; 
+    padding: 10px 10px 10px 10px;
+    border: dashed;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: lightblue;
+    text-decoration:none
+
+}
+.footDiv{
+    border-top: solid;
+    padding-top: 15px;
+    margin: 0px -10px 0px -10px; 
+
+}
+
+.footButtonDiv{
+    color: black;
+    font-family: "robotoBold", Arial, Helvetica, sans-serif;
+    margin: 0px 10px 0px 0px; 
+    padding: 10px 10px 10px 10px;
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: rgb(240, 175, 175);
+    text-decoration:none
+}
+
+.centerDiv{
+    margin-top: 100px
+
+}
+
+#indexID{
+    background-color: antiquewhite;
+    margin: 0px -10px 0px -10px; 
+    border: 0px;
+    padding: 15px 0px;
+}
+
+#milID{
+    background-color: whitesmoke;
+    margin: 0px -10px 0px -10px; 
+    border: 0px;
+    padding: 15px;
+}
+#profPicID{
+    width: 150px;
+    
+}
+
+#pofPicBorderId{
+    background-color: white;
+    margin: 0px 850px 0px 850px;
+    border: solid;
+    border-width: 1.5px;
+    border-radius: 15px;
+    padding-top: 10px;
+}
+
