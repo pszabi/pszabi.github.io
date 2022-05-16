@@ -44,7 +44,8 @@ table {
 }
 
 .buttonsBordersDiv{
-
+    position: fixed;
+    min-width: 100%;
     margin: -10px -10px 0px -10px; 
     padding: 20px 10px 20px 20px;
     border-bottom: solid;
@@ -84,7 +85,8 @@ table {
 }
 
 .centerDiv{
-    margin-top: 100px
+    /*margin-top: 100px;*/
+    padding-top: 150px;
 
 }
 
@@ -92,26 +94,28 @@ table {
     background-color: antiquewhite;
     margin: 0px -10px 0px -10px; 
     border: 0px;
-    padding: 15px 0px;
+    padding: 50px 0px 1px 0px;
 }
 
 #milID{
+    
     background-color: whitesmoke;
     margin: 0px -10px 0px -10px; 
     border: 0px;
     padding: 15px;
 }
 #profPicID{
-    width: 150px;
+    width: 90%;
     
 }
 
 #pofPicBorderId{
     background-color: white;
-    margin: 0px 850px 0px 850px;
+    margin: 0px 45% 0px 45%;
     border: solid;
     border-width: 1.5px;
     border-radius: 15px;
     padding-top: 10px;
+    min-width: 50px;
 }
 
