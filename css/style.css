@@ -17,7 +17,6 @@ html {
 
 }
 
-
 h1,
 h2,
 h3 {
@@ -29,7 +28,6 @@ h3 {
 ul,
 ol {
     font-weight: 100;
-
 }
 
 a {
@@ -43,56 +41,32 @@ table {
     width: display/2;
 }
 
-.buttonsBordersDiv{
-    position: fixed;
-    min-width: 100%;
-    margin: -10px -10px 0px -10px; 
-    padding: 20px 10px 20px 20px;
-    border-bottom: solid;
-    border-width: 2px;
-    background-color: rgb(173, 230, 201);
-}
+
 .buttonDiv{
     color: black;
     font-family: "robotoBold", Arial, Helvetica, sans-serif;
-    margin: 0px 0px 0px 0px; 
+    margin: 5px 5px 5px 5px; 
     padding: 10px 10px 10px 10px;
     border: dashed;
     border-width: 1px;
     border-radius: 10px;
     background-color: lightblue;
     text-decoration:none
-
+      
 }
-.footDiv{
-    border-top: solid;
-    padding-top: 15px;
-    margin: 0px -10px 0px -10px; 
-
+#aboutID
+{
+    margin: 50px 0px 0px 0px; 
+    padding: 50px 0px 1px 0px;
 }
-
-.footButtonDiv{
-    color: black;
-    font-family: "robotoBold", Arial, Helvetica, sans-serif;
-    margin: 0px 10px 0px 0px; 
-    padding: 10px 10px 10px 10px;
-    border: solid;
-    border-color: black;
-    border-width: 1px;
-    border-radius: 10px;
-    background-color: rgb(240, 175, 175);
-    text-decoration:none
+#othersID
+{
+    margin: 50px 0px 0px 0px; 
+    padding: 50px 0px 1px 0px;
 }
-
-.centerDiv{
-    /*margin-top: 100px;*/
-    padding-top: 150px;
-
-}
-
 #indexID{
     background-color: antiquewhite;
-    margin: 0px -10px 0px -10px; 
+    margin: 50px 0px 0px 0px; 
     border: 0px;
     padding: 50px 0px 1px 0px;
 }
@@ -100,22 +74,16 @@ table {
 #milID{
     
     background-color: whitesmoke;
-    margin: 0px -10px 0px -10px; 
+    margin: 0px 0px 0px 0px; 
     border: 0px;
     padding: 15px;
 }
 #profPicID{
-    width: 90%;
+    max-width: 20%;
+    min-width: 150px;
     
 }
 
-#pofPicBorderId{
-    background-color: white;
-    margin: 0px 45% 0px 45%;
-    border: solid;
-    border-width: 1.5px;
-    border-radius: 15px;
-    padding-top: 10px;
-    min-width: 50px;
-}
+
+
 

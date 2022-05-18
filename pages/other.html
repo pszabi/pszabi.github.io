@@ -5,19 +5,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>other</title>
+    <!-- this from boodstrap ref -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- own css file -->
     <link rel="stylesheet" href="../css/style.css">
+    <title>Others</title>
+
 </head>
 
 <body>
-    <div class = "buttonsBordersDiv">
-        <a class = "buttonDiv" href="../index.html">Home</a>    
-        <a class = "buttonDiv" href="other.html">Other</a>
-        <a class = "buttonDiv" href="../about.html">About Me</a>
-    </div>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">
+                <img src="/icon/homeIcon.png" alt="icon" width="40" height="40">
+                #firstPage
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active buttonDiv" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link buttonDiv" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link buttonDiv" href="/pages/other.html">Others</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    
-    <div class="centerDiv">
+
+    <div id="othersID" class="centerDiv">
         <h2>this is a table from my first lesson</h2>
         <table align="center">
             <caption>opening hours</caption>
@@ -35,7 +60,7 @@
                 <tr>
                     <td>saturday</td>
                     <td>10:00</td>
-    
+
                 </tr>
                 <tr>
                     <td>sunday</td>
@@ -51,6 +76,11 @@
             </tfoot>
         </table>
     </div>
+
+    <!-- this is from boodstrap scrip -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
